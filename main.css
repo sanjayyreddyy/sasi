@@ -1,0 +1,15 @@
+#abba{
+    padding: 0;
+    margin: 0;
+    font-size: 500%;
+    text-align: center;
+    padding-top:200px;
+    
+}
+
+.blink {
+    -webkit-animation: blink 0.4s step-end infinite;
+            animation: blink 0.3s step-end infinite;
+}
+@-webkit-keyframes blink { 50% { visibility: hidden; }}
+        @keyframes blink { 50% { visibility: hidden; }}
